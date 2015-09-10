@@ -1,0 +1,13 @@
+package org.apache.bcel.generic;
+
+public abstract interface ConstantPushInstruction
+  extends PushInstruction, TypedInstruction
+{
+  public abstract Number getValue();
+}
+
+
+/* Location:           G:\ParasiteTrade\Parasite_20150226.jar
+ * Qualified Name:     org.apache.bcel.generic.ConstantPushInstruction
+ * JD-Core Version:    0.7.0.1
+ */
